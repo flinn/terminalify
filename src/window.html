@@ -1,0 +1,46 @@
+<div id="terminal-toolbar">
+    <div class="top">
+        <div id="lights">
+            <div id="exit" class="light red">
+                <div class="glyph"><span class="btnExit">&#10006;</span>
+                </div>
+                <div class="shine"></div>
+                <div class="glow"></div>
+            </div>
+            <div id="minimize" class="light yellow">
+                <div class="glyph"><span class="btnMin">-</span>
+                </div>
+                <div class="shine"></div>
+                <div class="glow"></div>
+            </div>
+            <div id="maximize" class="light green">
+                <div class="glyph"><span class="btnMax">+</span>
+                </div>
+                <div class="shine"></div>
+                <div class="glow"></div>
+            </div>
+        </div>
+        <div id="title">
+            <div class="folder">
+                <div class="tab"></div>
+                <div class="folder-body"></div>
+            </div>1. Terminal (<span id="terminal-language"></span>)</div>
+        <div id="bubble">
+            <div class="shine"></div>
+            <div class="glow"></div>
+        </div>
+    </div>
+</div>
+<div id="terminal-body" class="terminal">
+    <p>Last login: <span id="terminal-lastlogin"></span></p>
+    <p><span id="terminal-user" class="user"></span><span id="terminalify-command" class="input"></span><span id="terminal-cursor" class="cursor"></span>
+    </p>
+    <p id="last-input"></p>
+</div>
+<div id="terminal-hidden">
+	<form id="usercommand" action="">
+          <input type="text" id="terminalCommand" name="terminalCommand" autocomplete="off">
+          <input type="submit" value="Submit" >
+    </form>
+</div>
+

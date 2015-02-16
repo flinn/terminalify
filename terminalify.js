@@ -8,11 +8,8 @@
 		maxStrokeInterval: 200,
 		outputInterval: 300,
 		output: [
-		"Registrant Name: Matthew Claiborne Flinn", 
-		"Registrant Organization: The Motley Fool", 
-		"Registrant Title: Software Developer", 
-		"Registrant City: Arlington, VA",
-		"Last update of WHOIS database: 2014-05-06T01:00:00Z"
+			"Terminalify is working...",
+			"Hello World!"
 		]
 	},
 	cursor,
